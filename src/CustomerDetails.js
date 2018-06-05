@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM, { render } from 'react-dom';
 import Address from './Address';
-import PopupButton from './PopupButton';
 import './index.css';
 
 import { connect } from 'react-redux'
