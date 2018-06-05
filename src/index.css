@@ -1,0 +1,63 @@
+body {
+    font:15px "Century Gothic", Futura, sans-serif;
+    margin: 50px;
+    background-image: url("AlfredHitchcock.jpg");
+    background-repeat: repeat;
+    background-size: 1500px 850px;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+
+.myHeader {
+    color: white;
+}
+
+.modal-container {
+    position: relative;
+}
+
+.modal-backdrop {
+    opacity: 0.5
+}
+
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+.customer-details,.login-details {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    height: 25px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+  }
+
+button, input[type="submit"]
+{
+    margin:10px 10px 10px 10px;
+    font: 20px "Century Gothic", Futura, sans-serif;
+}
+
+label, legend {
+    color: white;
+}
+  
+.customer-address {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+  }
